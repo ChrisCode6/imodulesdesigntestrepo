@@ -1,0 +1,58 @@
+body{
+    font-family:montserrat;
+}
+
+.dropdown:hover{
+background-color: #7eba55;
+}
+
+h1{
+    font-weight: bolder;
+    font-weight: 900;
+    font-family: montserrat; 
+}
+
+
+h2{
+    color: #1b81be;
+    font-family:montserrat;
+}
+
+.sidenav {
+    width: 200px;
+    position: static;
+    z-index: 1;
+    top: 400px;
+    left: 450px;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: gray;
+}
+
+.main {
+    margin-left: 300px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+.panel-body{
+    background-color: #343531;
+    -webkit-text-fill-color: white;
+}
